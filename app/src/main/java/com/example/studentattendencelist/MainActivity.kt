@@ -16,5 +16,11 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val token = intent.getStringExtra("jwt")
+        val userid = intent.getStringExtra("userid")
+
+        // id ye göre dersleri listeleyeceğiz
+
+
     }
 }
